@@ -13,8 +13,8 @@ import time
 '''
 
 
-SEC_KEY = ''
-PUB_KEY = ''
+SEC_KEY = 'LjvGMciCZGt4BiGX26hunoxtynzNfk6mT3RQgdkI'
+PUB_KEY = 'PK3TZAVQ3VO8WY475NZP'
 BASE_URL = 'https://paper-api.alpaca.markets'
 api = tradeapi.REST(key_id= PUB_KEY, secret_key=SEC_KEY, base_url=BASE_URL)
 
